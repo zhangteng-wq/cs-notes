@@ -1,0 +1,64 @@
+# 构建产物
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.idb
+*.class
+*.jar
+
+# Visual Studio / MSVC
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.vcxproj.user
+*.suo
+*.user
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.VC.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+
+# Unity（如后续放 Unity 项目）
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
